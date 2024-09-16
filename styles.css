@@ -1,0 +1,39 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    height: 2rem;
+  
+    gap: 1rem
+}
+
+nav img{
+ height: 90%;
+ margin: auto auto auto 1rem
+}
+
+
+nav a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+nav .login{
+margin: auto 1rem auto auto ;
+border: 0.5px lightgray solid;
+padding: 3px 5px 3px 5px;
+border-radius: 5px;
+
+
+}
+ nav .login:hover{
+
+    background-color: black;
+}
+
+
+nav a:hover {
+    background-color: black;
+}
+
